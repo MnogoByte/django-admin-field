@@ -2,7 +2,7 @@
 from distutils.core import setup
 
 
-setup(name='Django Admin Field',
+setup(name='django-admin-field',
       version='0.0.1',
       description='Django ModelAdmin field syntax simplifier.',
       author='Alexander Klimenko',
