@@ -7,5 +7,15 @@ setup(name='Django Admin Field',
       description='Django ModelAdmin field syntax simplifier.',
       author='Alexander Klimenko',
       author_email='alex@erix.ru',
+      description = open('README.rst').read(),
       url='https://github.com/meteozond/django-admin-field',
-      packages=['django_admin_field'], )
+      packages=['django_admin_field'],
+      classifiers=[
+            "Framework :: Django",
+            "Intended Audience :: Developers",
+            "Intended Audience :: System Administrators",
+            "Operating System :: OS Independent",
+            "Topic :: Software Development"
+      ],
+      license="BSD",
+      )
