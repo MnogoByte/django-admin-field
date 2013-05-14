@@ -11,7 +11,7 @@ class AdminField(object):
         self.short_description = short_description or _(self.field_path[-1])
 
     def __call__(self, obj):
-        return self.__dict__['method'](reduce(getattr, self.field_path, obj))
+        return self.method(reduce(getattr, self.field_path, obj))
 
 
 class AdminFieldBase(AdminField):
